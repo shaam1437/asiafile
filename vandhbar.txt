@@ -1,0 +1,139 @@
+vertical and horizontal navigation bar
+
+h1 {text-align:center;
+background:blue
+color:white;
+border:0.5px groove red;
+position:relative;
+margin:0;
+}
+h4{text-align:center;
+background:blue;
+color:white;
+border:0.5px groove red;
+position:relative;
+margin:0;
+clear:both;
+}
+body
+margin: 0;}
+ul{
+list-style-type: none;
+margin:0;
+padding:0;
+width:25%;
+position:fixed;
+height:100%;
+overflow:auto;
+}
+li a {
+display: block;
+color: black
+padding:8px 16px;
+text-decoration:none;
+}
+li a active{
+background-color green;
+color:white;
+}
+li a:hover:not(.active){
+background-color:blue;
+color:white;
+}
+div{ float:left;margin-left:150px;}
+
+
+------------------------------------------------------------------------------------
+
+
+<ul>
+<li><a class="active"href="#Home">Home</a></li>
+<li><a href="#News'>News</a></li>
+<li class="Asia"><a href="#News">Gallery</a>
+<div class="Asia1">
+<a href="#">Gallery2017</a>
+<a href="#">Gallery2018</a>
+<a href="#">Gallery2019</a>
+<a href="#">Gallery2020</a>
+</div></li>
+<li><a href="#contact">Contact</a></li>
+<li style="floatright"><a class="active1"href="#about">About</a></li>
+
+----------------------------------------------------------------------------------
+
+
+CSS work
+
+
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+li{
+float left;}
+li a {
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;}
+li a:hovernot(.active){
+background-color:lightgray;
+color:black}
+.active{
+background-color:green;}
+.active1 {background-color:blue;}
+li.Asia{
+display:inline-block;}
+.Asia1{
+display:none;
+position:absolute;
+background-color#333;
+width:160px;}
+.Asia1 a {
+color:white;
+padding:12px 16px;
+text-decoration:none;
+display:block;
+text-align:left;}
+.Asia1 a:hover {background-color:lightgray}
+.Asia:hover.Asia1 {
+display:block;}
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+
+CSS work
+
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+li{
+float left;}
+li a {
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;}
+li a:hovernot(.active){
+background-color:lightgray;
+color:black}
+.active{
+background-color:green;}
+.active1 {background-color:blue;}
+<ul>
+<li><a class="active"href="#Home">Home</a></li>
+<li><a href="#News">News</a></li>
+<li><a href="#Gallery">Gallery</a></li>
+<li><a href="#Contact">Contact</a></li>
+<li><style="floatright"><a class="active1"href="About">Abou</a></li>
+
